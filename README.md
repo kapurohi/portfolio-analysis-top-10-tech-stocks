@@ -27,10 +27,11 @@ This project applies core quantitative finance concepts:
 
 ## Project Structure
 
-Portfolio-Optimization/
-> portfolio_optimization_analysis        # Static efficient frontier visualization  
-> portfolio_optimization_interactive     # Panel-based interactive dashboard  
-> README.md  
+Portfolio-Optimization
+- Static visualization of the Efficient Frontier and Tangency portfolio
+- Interactive panel app of the analysis and log returns
+- Instructional README.txt file
+- Data Folder containing the financial information of our selected data of top 10 tech stocks.
 
 ---
 
@@ -62,18 +63,21 @@ The `portfolio_optimization_interactive.ipynb` script creates a Panel app that:
 - Allows dynamic interaction with graphs
 
 Run the app:
-```bash
+```
+bash
 panel serve portfolio_optimization_interactive.ipynb --autoreload
 ```
 
 Then open:
-```code
+```
+code
 http://localhost:5006
 ```
 
 Log Returns
 Daily log returns are computed as:
-```code
+```
+code
 log_return = np.log(prices / prices.shift(1))
 ```
 
@@ -83,7 +87,8 @@ Portfolio Metrics
 * Sharpe Ratio
 
 Run using:
-```bash
+```
+bash
 python portfolio_optimization_interactive.ipynb
 ```
 
