@@ -27,7 +27,6 @@ This project applies core quantitative finance concepts:
 
 ## Project Structure
 
-Portfolio-Optimization
 - `portfolio_optimization_analysis.ipynb` - Static visualization of the Efficient Frontier and Tangency portfolio
 - `portfolio_optimization_interactive.ipynb` - Interactive graphs and panel app of the analysis and log returns
 - Instructional README.txt file
