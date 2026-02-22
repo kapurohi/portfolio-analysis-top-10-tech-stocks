@@ -21,19 +21,16 @@ This project applies core quantitative finance concepts:
 - Sharpe ratio maximization  
 - Monte Carlo portfolio simulation  
 - Efficient Frontier construction  
-- Tangency portfolio identification  
-
-It recreates an HPOL-style efficient frontier workflow using clean, modular Python code.
+- Tangency portfolio identification
 
 ---
 
 ## Project Structure
 
 Portfolio-Optimization/
-│
-├── portfolio_optimization_analysis         # Static efficient frontier visualization  
-├── portfolio_optimization_interactive     # Panel-based interactive dashboard  
-└── README.md  
+> portfolio_optimization_analysis        # Static efficient frontier visualization  
+> portfolio_optimization_interactive     # Panel-based interactive dashboard  
+> README.md  
 
 ---
 
