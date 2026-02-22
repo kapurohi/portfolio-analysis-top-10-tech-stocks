@@ -28,10 +28,10 @@ This project applies core quantitative finance concepts:
 ## Project Structure
 
 Portfolio-Optimization
-- Static visualization of the Efficient Frontier and Tangency portfolio
-- Interactive panel app of the analysis and log returns
+- `portfolio_optimization_analysis.ipynb` - Static visualization of the Efficient Frontier and Tangency portfolio
+- `portfolio_optimization_interactive.ipynb` - Interactive graphs and panel app of the analysis and log returns
 - Instructional README.txt file
-- Data Folder containing the financial information of our selected data of top 10 tech stocks.
+- Data Folder containing the financial information of our selected data of the top 10 tech stocks.
 
 ---
 
